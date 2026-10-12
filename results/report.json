@@ -1,0 +1,16 @@
+{
+  "input_rows": 72,
+  "rows_with_findings": 4,
+  "finding_counts": {
+    "missing_energy": 1,
+    "duplicate_timestamp": 1,
+    "irregular_interval": 1,
+    "robust_outlier": 1
+  },
+  "duplicate_timestamp_extras": 1,
+  "irregular_intervals": 1,
+  "robust_outliers": 1,
+  "outlier_method": "modified z-score using median absolute deviation; threshold 3.5",
+  "interval_expectation": "1:00:00",
+  "limitations": "Flags are screening signals, not proof of faulty meters or billing errors."
+}

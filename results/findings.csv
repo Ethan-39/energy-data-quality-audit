@@ -1,0 +1,5 @@
+row_number,meter_id,timestamp,issue,detail
+23,demo-meter-01,2026-09-01T20:00,missing_energy,energy_kwh must be a non-negative number
+15,demo-meter-01,2026-09-01T12:00:00,duplicate_timestamp,same meter_id and timestamp already appeared
+36,demo-meter-01,2026-09-02T10:00:00,irregular_interval,"expected 1:00:00, observed 2:00:00"
+53,demo-meter-01,2026-09-03T03:00,robust_outlier,modified_z=1017.32; review the source reading
